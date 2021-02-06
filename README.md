@@ -6,3 +6,5 @@ A LinkedIn post scraping bot
 - The settings.py file can be updated to enter the username whose posts should be scraped.
 - A specific keyword or a list of keywords can be specified inside the settings.py. These keywords will be used to filter the posts for scraping.
 - Only new posts should be fetched and notified to a `Discord` channel with a link to the post (If possible).
+
+Sample update
