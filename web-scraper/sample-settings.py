@@ -5,3 +5,4 @@ LINKEDIN_LOGIN_URL = 'https://www.linkedin.com/login?fromSignIn=true&trk=guest_h
 LINKEDIN_POSTS_URL = 'https://www.linkedin.com/in/<Enter-Username>/detail/recent-activity/shares/'
 POSTS_SEARCH_TERMS = 'Python,Django'
 CHROME_DRIVER_PATH = 'chromedriver_linux64/chromedriver'
+TEST_MODE_HEADLESS = 'false'
