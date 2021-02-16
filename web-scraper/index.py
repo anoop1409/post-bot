@@ -11,7 +11,7 @@ import settings
 options = Options()
 
 # Running selenium in headless mode if SCRAPE_MODE_HEADLESS is true
-if(settings.SCRAPE_MODE_HEADLESS == 'true'):
+if settings.SCRAPE_MODE_HEADLESS:
     options.add_argument('--headless')
     options.add_argument('--disable-gpu')
 

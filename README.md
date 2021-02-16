@@ -24,4 +24,4 @@ To run the python script for web scraping, navigate to the web-scraper folder an
 
 - Once the above changes are done, run python3 index.py from inside the web-scraper folder path. The posts which satisfy the given criteria of search terms for the given user, will be printed in the terminal.
 
-- To run selenium in headless mode, make the following changes in settings.py file `SCRAPE_MODE_HEADLESS = 'true'` otherwise make this as `false`
+- To run selenium in headless mode, make the following changes in `settings.py` file `SCRAPE_MODE_HEADLESS =True` otherwise make this as `False`
