@@ -24,7 +24,14 @@ To run the python script for web scraping, navigate to the `scraper` folder and 
 
 4. Once the above changes are done, run `python3 main.py` from inside the `scraper` folder path.
 
-5. To run selenium in non-headless mode, make the following changes in `settings.py` file: 
-    ```
-    SCRAPE_MODE_HEADLESS = False
-    ```
+5. To run selenium in non-headless mode, make the following changes in `settings.py` file:
+
+   ```
+   SCRAPE_MODE_HEADLESS = False
+   ```
+
+6. Create a bot and give it authorization for your discord server. Paste the bot username within `settings.py`. Reference link:
+   https://www.freecodecamp.org/news/create-a-discord-bot-with-python/
+
+7. Create a web hook for a channel on your discord server and copy its URL. Paste the webhook url within `settings.py`. Reference link:
+   https://www.digitalocean.com/community/tutorials/how-to-use-discord-webhooks-to-get-notifications-for-your-website-status-on-ubuntu-18-04
