@@ -1,0 +1,4 @@
+selenium==3.141.0
+BeautifulSoup4==4.9.3
+discord==1.0.1
+requests==2.25.1

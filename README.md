@@ -35,3 +35,8 @@ To run the python script for web scraping, navigate to the `scraper` folder and 
 
 7. Create a web hook for a channel on your discord server and copy its URL. Paste the webhook url within `settings.py`. Reference link:
    https://www.digitalocean.com/community/tutorials/how-to-use-discord-webhooks-to-get-notifications-for-your-website-status-on-ubuntu-18-04
+
+## Code formatting
+For formatting the code and to follow the same formatting style across the project, please us `black`.
+1. `pip install black`
+2. `black main.py`
